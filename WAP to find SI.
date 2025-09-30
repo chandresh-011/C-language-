@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() 
+{
+    float p, r, t, i;
+
+    p = 1000.0;
+    r = 5.0;        
+    t = 2.0;        
+    i = (p * r * t) / 100;
+
+    printf("The simple interest is %f", i);
+
+    return 0;
+}
