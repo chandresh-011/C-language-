@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a,b,sub;
+    a=40,b=23;
+    sub=a-b;
+    printf("the sub is %d",sub);
+
+    return 0;
+}
